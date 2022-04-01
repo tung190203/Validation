@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+}
+header{
+  height: 150px;
+  background-color: rgb(237, 125, 84);
+}
+header img{
+    width: 150px;
+    height: 150px;
+    margin-left:400px ;
+}
+ .dn {
+   float: right;
+   padding: 5px 10px;
+   border-bottom: 1px solid black;
+   border-right: 1px solid black;
+   border-left: 1px solid black;
+   margin-right: 20px;
+}
+.dn a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.dn  :hover{
+    color:turquoise;
+}
+nav{
+    height: 40px;
+    background-color: rgb(66, 174, 66);
+    margin: 5px 0;
+}
+nav a{
+    display: block;
+    float: left;
+    padding: 10px 20px;
+    text-decoration:none;
+    text-transform: uppercase;
+   color: white; 
+   border-right: 1px solid white;
+}
+nav a:hover{
+    text-shadow: 0 0 10px black;
+    background-color:cyan;
+    color: black;
+    text-decoration: underline;
+
+}
+.slideshow img{
+    width: 100%;
+    height: 300px;
+}
+.slideshow input{
+    border-radius: 5px;
+    background-color: aqua;
+    width: 100px;
+}
+.slideshow input:hover{
+    background-color: red;
+    color: white;
+    text-shadow: 0 0 5px blue;
+    font-weight: bold;
+}
+.left1{
+    float: left;
+}
+.left1 input{
+    margin-right: 60.5px;
+}
+.right1{
+    float: right;
+}
+.right1 input{
+    margin-left:60.5px;
+}
+article{
+    float: right;
+    width: 79%;
+    margin-top: 10px;
+}
+aside{
+    float: left;
+    width: 19%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.danhmuc li{
+    list-style: none;
+text-align: center;
+}
+.danhmuc li a{
+text-decoration: none;
+color: black;
+font-weight: bold;
+
+}
+.danhmuc li a:hover{
+    color: red;
+
+}
+.ob{
+    width: 23%;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.sp{
+    border: 1px solid black;
+text-align: center;
+border-radius: 5px;
+}
+.sp img{
+    width: 60%;
+}
+.sp a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.name{
+font-weight: bold;
+color:black;
+}
+.name:hover{
+    color: red;
+}
+.price{
+    color: red;
+    font-weight: bold;
+}
+.price:hover{
+    
+}
+footer{
+    clear: both;
+    text-align: center;
+    background-color: green;
+    height: 50px;
+    color: white;
+}
+footer p{
+    display: block;
+    padding: 19px;
+}
+

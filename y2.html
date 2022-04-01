@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dangki {
+            width: 430px;
+            border: 1px solid black;
+            padding: 0 30px;
+            margin: auto;
+        }
+
+        span {
+            color: red;
+        }
+
+        .dangki label {
+            display: inline-block;
+            width: 140px;
+            font-weight: bold;
+        }
+
+        .dangki input[type="text"] {
+            width: 443px;
+            height: 25px;
+            border-radius: 5px;
+        }
+
+        .dangki select {
+            width: 443px;
+            height: 25px;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 120px;
+            height: 40px;
+            border-radius: 30px;
+            box-shadow: 0 0 15px gray;
+            background-color: rgb(194, 192, 192);
+            font-weight: bold;
+            text-shadow: 0 0 15px white;
+            margin-bottom: 10px;
+        }
+
+        #gt {
+            border: 1px solid black;
+            width: 443px;
+            height: 25px;
+            border-radius: 5px;
+        }
+
+        .st {
+            border: 1px solid black;
+            width: 443px;
+            height: 25px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dangki">
+        <h1>ĐĂNG KÍ THÀNH VIÊN</h1>
+        <label for="">Mã sinh viên</label><span></span><br>
+        <input type="text" id="masv"><br>
+        <p> <label for="">Họ và tên</label><span></span><br>
+            <input type="text"><br>
+        </p>
+        <label for="">Email</label><span></span><br>
+        <input type="text" name="email" id="mail" onkeydown="mail()"><br>
+        <p>
+            <label for="">Giới tính</label>
+        <div id="gt">
+            <input type="radio" name="nam">Nam
+            <input type="radio" name="nữ">Nữ
+        </div>
+        </p>
+
+        <p>
+            <label for="">Sở thích</label><br>
+        <div class="st">
+            <input type="checkbox" name="like" value="đọc sách">Đọc sách
+            <input type="checkbox" name="like" value="Du lịch">Du lịch
+            <input type="checkbox" name="like" value="Âm nhạc">Âm nhạc
+            <input type="checkbox" name="like" value="Ẩm thực">Ẩm thực
+            <input type="checkbox" name="like" value="Khác">Khác <br>
+        </div>
+        </p>
+        <label for="">Quốc tịch</label><br>
+        <select name="" id="">
+            <option value=""></option>
+            <option value="vn">Việt Nam</option>
+            <option value="tq">Trung quốc</option>
+            <option value="n">Nga</option>
+        </select>
+        <p>
+            <label for="">Ghi chú</label><br>
+            <textarea name="" id="" cols="60" rows="5"></textarea>
+        </p>
+        <button onclick="validate()">Đăng kí</button>
+    </div>
+</body>
+
+</html>
